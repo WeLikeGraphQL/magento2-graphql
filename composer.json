@@ -1,0 +1,36 @@
+{
+    "name": "graphan/magento2-graphql",
+    "description": "GraphQL API in Magento2",
+    "type": "magento2-module",
+    "authors": [
+        {
+            "name": "graphan",
+            "email": "graphqlfan@gmail.com"
+        }
+    ],
+    "repositories": [
+      {
+        "type": "composer",
+        "url": "https://repo.magento.com/"
+      }
+    ],
+    "require": {
+      "magento/framework": "100.1.*",
+      "magento/module-backend": "100.1.*",
+      "magento/module-catalog": "101.0.*",
+      "youshido/graphql": "1.2.*",
+      "zendframework/zend-http": "~2.4.6",
+      "php": ">=5.6,<8.0-DEV"
+    },
+    "require-dev": {
+      "phpunit/phpunit": "4.8.*",
+      "satooshi/php-coveralls": "1.0.*"
+    },
+    "version": "0.1.0",
+    "autoload": {
+      "files": [ "registration.php" ],
+      "psr-4": {
+        "graphan\\Magento2GraphQL\\": "src/"
+      }
+    }
+}
