@@ -1,5 +1,5 @@
 {
-    "name": "graphan/magento2-graphql",
+    "name": "WeLikeGraphQL/magento2-graphql",
     "description": "GraphQL API in Magento2",
     "type": "magento2-module",
     "authors": [
