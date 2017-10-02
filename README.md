@@ -1,4 +1,4 @@
-#GraphQL API for Magento2
+# GraphQL API for Magento2
 
 [![Gitter][gitter-img]][gitter-link]
 [![Build Status](https://travis-ci.org/WeLikeGraphQL/magento2-graphql.svg?branch=master)](https://travis-ci.org/WeLikeGraphQL/magento2-graphql)
@@ -7,7 +7,7 @@
 [gitter-img]: https://badges.gitter.im/Join%20Chat.svg
 [gitter-link]: https://gitter.im/WeLikeGraphQL/magento2-graphql?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
 
-##Installation
+## Installation
 
 Install this magento2 module using composer:
 ```
@@ -21,7 +21,7 @@ http://<your_magento2_path>/index.php/graphql
 
 We highly recommend using [GraphIQL Feen](https://chrome.google.com/webstore/detail/graphiql-feen/mcbfdonlkfpbfdpimkjilhdneikhfklp) to explore this endpoint.
 
-##List of covered [Magento's REST APIs](http://devdocs.magento.com/swagger/)
+## List of covered [Magento's REST APIs](http://devdocs.magento.com/swagger/)
  - [backendModuleService](http://devdocs.magento.com/swagger/#!/backendModuleServiceV1)
  - [catalogCategoryAttributeRepository](http://devdocs.magento.com/swagger/#!/catalogCategoryAttributeRepositoryV1)
  - [catalogCategoryManagement](http://devdocs.magento.com/swagger/#!/catalogCategoryManagementV1)
